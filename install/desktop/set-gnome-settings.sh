@@ -7,7 +7,7 @@ gsettings set org.gnome.desktop.interface monospace-font-name 'Cascadia Mono PL 
 gsettings set org.gnome.desktop.interface clock-show-weekday true
 
 # enable maximize button on pop os
-gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
+gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
 
 # Center new windows in the middle of the screen
 # gsettings set org.gnome.mutter center-new-windows true
