@@ -17,11 +17,11 @@ fi
 # Install terminal tools
 source ~/.local/share/pop-setup/install/terminal.sh
 
-# if $RUNNING_GNOME; then
-#   # Install desktop tools and tweaks
-#   source ~/.local/share/pop-setup/install/desktop.sh
+if $RUNNING_GNOME; then
+  # Install desktop tools and tweaks
+  source ~/.local/share/pop-setup/install/desktop.sh
 
-#   # Revert to normal idle and lock settings
-#   gsettings set org.gnome.desktop.screensaver lock-enabled true
-#   gsettings set org.gnome.desktop.session idle-delay 300
-# fi
+  # Revert to normal idle and lock settings
+  gsettings set org.gnome.desktop.screensaver lock-enabled true
+  gsettings set org.gnome.desktop.session idle-delay 300
+fi
