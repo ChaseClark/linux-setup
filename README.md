@@ -1,6 +1,6 @@
 # pop-setup
 
-Pop!\_OS set up script
+Pop!\_OS 22.04 set up script
 
 Uses Omakub as a reference.
 
