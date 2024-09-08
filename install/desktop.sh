@@ -9,6 +9,11 @@ for installer in ~/.local/share/pop-setup/install/desktop/*.sh; do source $insta
 gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.session idle-delay 300
 
+# final system update to update vscode mainly
+echo "updating system again..."
+sudo apt update -y
+sudo apt dist-upgrade -y
+
 # reboot to pickup changes
 echo "rebooting in 10 seconds..."
 echo "press ctrl+c to cancel"
