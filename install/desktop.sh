@@ -9,5 +9,7 @@ for installer in ~/.local/share/pop-setup/install/desktop/*.sh; do source $insta
 gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.session idle-delay 300
 
-# Logout to pickup changes
-echo "please reboot now to complete setup..."
+# reboot to pickup changes
+echo "rebooting in 10 seconds..."
+echo "press ctrl+c to cancel"
+sleep 10 && sudo reboot
