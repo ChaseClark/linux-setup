@@ -10,7 +10,13 @@ sudo apt-get install -y git >/dev/null
 
 echo "Cloning linux-setup..."
 rm -rf ~/.local/share/linux-setup 
-git clone https://github.com/ChaseClark/linux-setup/tree/pop22-04 ~/.local/share/linux-setup  >/dev/null
+git clone https://github.com/ChaseClark/linux-setup.git ~/.local/share/linux-setup  >/dev/null
+
+# switch to 22-04
+cd ~/.local/share/linux-setup
+git checkout pop22-04
+cd -
+
 
 echo "Installation starting..."
 source ~/.local/share/linux-setup/install.sh
