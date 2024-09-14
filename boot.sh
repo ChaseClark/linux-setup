@@ -8,9 +8,9 @@ echo -e "setting up ..."
 sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
-echo "Cloning pop-setup..."
-rm -rf ~/.local/share/pop-setup 
-git clone https://github.com/ChaseClark/pop-setup.git ~/.local/share/pop-setup  >/dev/null
+echo "Cloning linux-setup..."
+rm -rf ~/.local/share/linux-setup 
+git clone https://github.com/ChaseClark/linux-setup.git ~/.local/share/linux-setup  >/dev/null
 
 echo "Installation starting..."
-source ~/.local/share/pop-setup/install.sh
+source ~/.local/share/linux-setup/install.sh

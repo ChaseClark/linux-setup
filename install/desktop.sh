@@ -1,7 +1,7 @@
 # TODO: Ensure computer doesn't go to sleep or lock while installing
 
 # Run desktop installers
-for installer in ~/.local/share/pop-setup/install/desktop/*.sh; do source $installer; done
+for installer in ~/.local/share/linux-setup/install/desktop/*.sh; do source $installer; done
 
 # final system update to update vscode mainly
 echo "updating system again..."

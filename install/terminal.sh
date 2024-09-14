@@ -4,4 +4,4 @@ sudo apt upgrade -y
 sudo apt install -y curl git unzip
 
 # Run terminal installers
-for installer in ~/.local/share/pop-setup/install/terminal/*.sh; do source $installer; done
+for installer in ~/.local/share/linux-setup/install/terminal/*.sh; do source $installer; done

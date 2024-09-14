@@ -12,4 +12,4 @@
 
 # configure bash
 echo "setting up bashrc"
-cp ~/.local/share/pop-setup/dotfiles/.bash_aliases ~/
+cp ~/.local/share/linux-setup/dotfiles/.bash_aliases ~/
