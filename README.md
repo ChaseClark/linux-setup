@@ -6,6 +6,12 @@ Change the set-git.sh variables before running.
 
 ## Commands
 
+### Ubuntu 24.04
+
+```sh
+eval "$(wget -qO- https://raw.githubusercontent.com/chaseclark/linux-setup/ubuntu24-04/boot.sh)"
+```
+
 ### Pop 24.04
 
 ```sh
