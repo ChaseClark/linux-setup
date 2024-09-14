@@ -1,4 +1,4 @@
-# pop-setup
+# linux-setup
 
 Pop!\_OS 22.04 set up script
 
@@ -9,5 +9,5 @@ Change the set-git.sh variables before running.
 ## Command
 
 ```sh
-eval "$(wget -qO- https://raw.githubusercontent.com/chaseclark/pop-setup/main/boot.sh)"
+eval "$(wget -qO- https://raw.githubusercontent.com/chaseclark/linux-setup/main/boot.sh)"
 ```

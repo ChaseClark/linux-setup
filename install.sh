@@ -15,11 +15,11 @@ else
 fi
 
 # Install terminal tools
-source ~/.local/share/pop-setup/install/terminal.sh
+source ~/.local/share/linux-setup/install/terminal.sh
 
 if $RUNNING_GNOME; then
   # Install desktop tools and tweaks
-  source ~/.local/share/pop-setup/install/desktop.sh
+  source ~/.local/share/linux-setup/install/desktop.sh
 
   # Revert to normal idle and lock settings
   gsettings set org.gnome.desktop.screensaver lock-enabled true
