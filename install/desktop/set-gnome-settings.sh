@@ -14,6 +14,3 @@ gsettings set org.gnome.desktop.calendar show-weekdate true
 
 # make fonts bigger
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
-
-# cursor size
-gsettings set org.gnome.desktop.interface cursor-size 16
