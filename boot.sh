@@ -5,8 +5,8 @@ set -e
 
 echo -e "setting up ..."
 
-sudo apt-get update >/dev/null
-sudo apt-get install -y git >/dev/null
+sudo apt update >/dev/null
+sudo apt install -y git >/dev/null
 
 echo "Cloning linux-setup..."
 rm -rf ~/.local/share/linux-setup 
