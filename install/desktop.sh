@@ -7,6 +7,7 @@ for installer in ~/.local/share/linux-setup/install/desktop/*.sh; do source $ins
 echo "updating system again..."
 sudo apt update -y
 sudo apt dist-upgrade -y
+sudo snap refresh
 
 # reboot to pickup changes
 echo "rebooting in 10 seconds..."
