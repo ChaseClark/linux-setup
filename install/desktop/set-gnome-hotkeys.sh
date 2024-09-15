@@ -1,6 +1,21 @@
 # quit app  
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
 
+# calc
+gsettings set org.gnome.settings-daemon.plugins.media-keys calculator "['<Super>c']"
+
+# email
+gsettings set org.gnome.settings-daemon.plugins.media-keys email "['<Super>e']"
+
+# home folder
+gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Super>f']"
+
+# terminal
+gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>t']"
+
+# browser
+gsettings set org.gnome.settings-daemon.plugins.media-keys www "['<Super>b']"
+
 # Full-screen with title/navigation bar
 gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Shift>F11']"
 
